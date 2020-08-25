@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  }
+
+  body {
+    background-image: url("asset/pattern.jpg");
+    margin: 0;
+  }
+header {
+    height: 60px;
+    background-color: white;
+    width : 100%;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+}
+nav {
+  float: right;
+  line-height: 30px;
+}
+nav a {
+  text-decoration: none;
+  font-family: lato;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-right: 35px;
+    color: #3d3d3d;
+}
+nav a:hover {
+  text-decoration: none;
+  font-family: https://fonts.googleapis.com/css?family=Slabo+27px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-right: 35px;
+  color: #3cc1e6;
+
+}
+#logo{
+  float: left;
+  margin-left: 30px;
+  line height: 100px;
+}
+
+section a {
+  text-decoration: none;
+}
+
+.konten {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  background-color: white;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+
+}
+.textbox{
+    border-bottom: 1px solid #a9aaab;
+}
+.backbutton {
+  font-family: lato;
+  background-color: #3cc1e6;
+  border: 2px solid #3cc1e6;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+.backbutton:hover {
+  font-family: lato;
+  background-color: white;
+  border: 2px solid #3cc1e6;
+  color: #858585;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+.sendbutton {
+  font-family: lato;
+  background-color: #3cc1e6;
+  border: 2px solid #3cc1e6;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+.sendbutton:hover {
+  font-family: lato;
+  background-color: white;
+  border: 2px solid #3cc1e6;
+  color: #858585;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+footer {
+  background-color: black;
+  line-height: 40px;
+  text-align: center;
+  width: auto;
+  height: 70px;
+  bottom: 0;
+  position: relative;
+}
