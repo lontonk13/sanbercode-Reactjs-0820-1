@@ -81,10 +81,8 @@ console.log("");
 
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
 daftarBuah.sort()
-var x = daftarBuah.toString()
-
-console.log(x.slice(0,9));
-console.log(x.slice(10,17));
-console.log(x.slice(18,27));
-console.log(x.slice(28,39));
-console.log(x.slice(40,48));
+daftarBuah.toString()
+for (i = 0; i < daftarBuah.length; i++)
+{
+  console.log(daftarBuah[i]);
+}
